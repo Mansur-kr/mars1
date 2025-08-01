@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #001064;
+}
+
+.lang {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Main content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  width: 350px;
+  position: relative;
+}
+
+.card .mars-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.offerta {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #ff3b00;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+  color: #001064;
+  margin-bottom: 20px;
+}
+
+.roles {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.roles button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+}
+
+.roles .active {
+  background-color: #fff;
+  border: 2px solid #ddd;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.qr {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #ffa78d;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #ff470f;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
